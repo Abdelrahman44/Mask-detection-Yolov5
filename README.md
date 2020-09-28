@@ -26,14 +26,14 @@ Below are sample images and predictions:
 
 ## Requirements
 After cloning the repo do:
-pip install -r requirements.txt
+'pip install -r requirements.txt'
 
 
 ## How-to-use
 
 To run inference execute below command
 
-python detect.py --source ../data/test/images --weights runs/exp6/weights/best.pt --img 640
+'python detect.py --source ../data/test/images --weights runs/exp6/weights/best.pt --img 640'
 You can change --source to:
       * 0  # webcam
       * file.jpg  # image 
