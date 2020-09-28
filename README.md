@@ -19,21 +19,22 @@ Below are sample images and predictions:
 ![output1](https://github.com/Abdelrahman44/Mask-detection-Yolov5/blob/master/yolov5/inference/output/r1p00017o8171pnq407_jpg.rf.6fd25b7219a249e97f54fcabf2b52726.jpg)
 ![output1](https://github.com/Abdelrahman44/Mask-detection-Yolov5/blob/master/yolov5/inference/output/w1240-p16x9-0e48e0098f6e832f27d8b581b33bbc72b9967a63_jpg.rf.34ed1e8f70eebdabaf43ab9d40dc1c9b.jpg)
 ![output1](https://github.com/Abdelrahman44/Mask-detection-Yolov5/blob/master/yolov5/inference/output/RTX7CCFN_jpg.rf.66ed5c5054f30d933d19ab3d56ace004.jpg)
-![output1](https://github.com/Abdelrahman44/Mask-detection-Yolov5/blob/master/yolov5/inference/output/r1p00017o8171pnq407_jpg.rf.6fd25b7219a249e97f54fcabf2b52726.jpg)
 ![output1](https://github.com/Abdelrahman44/Mask-detection-Yolov5/blob/master/yolov5/inference/output/1288126-10255706714jpg_jpg.rf.95f7324cbfd48e0386e0660b5e932223.jpg)
 ![output1](https://github.com/Abdelrahman44/Mask-detection-Yolov5/blob/master/yolov5/inference/output/shutterstock_1627199179_jpg.rf.8432d033a37b3d142ec4ffcede508c7d.jpg)
 
 
 ## Requirements
-After cloning the repo do:
-'pip install -r requirements.txt'
+After cloning the repo do: 
+
+`pip install -r requirements.txt`
 
 
 ## How-to-use
 
 To run inference execute below command
 
-'python detect.py --source ../data/test/images --weights runs/exp6/weights/best.pt --img 640'
+`python detect.py --source ../data/test/images --weights runs/exp6/weights/best.pt --img 640`
+
 You can change --source to:
       * 0  # webcam
       * file.jpg  # image 
